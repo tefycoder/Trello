@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:#F77107  ;
+}
+header{
+	position: fixed;
+	width: 100%;
+	background: rgba(0,0,0,0.1);
+	padding: 7px;
+}
+#contenedorLista{
+	display: inline-block;
+	float: left;
+	border-radius: 5px;
+	background-color: #E2E4E6;
+	width: 270px;
+}
+#nuevaLista{
+	width: 100%;
+	height: 40px;
+	padding: 8px;
+	border-radius: 5px;
+	color: #aaa;
+}
+.bg-gray {
+	background-color: #E2E4E6;
+}
+#nuevaLista:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.p-7 {
+	padding: 7px;
+}
+#formLista{
+	background-color:#E2E4E6;
+	width: 250px;
+	padding: 8px;
+	border-radius: 5px;
+}
+form input{
+	background: rgba(0,0,0,.05);
+	border-color: #aaa;
+	border-radius: 3px;
+	border:1px solid #cdd2d4;
+	padding: 5px;
+	width: 100%;
+}
+.boton{
+	background-color: #0712F7;
+	font-weight: bold;
+	color: white;
+	padding: 5px;
+	margin: 1px;
+	margin-top: 7px;
+	border-radius: 3px;
+}
+.cerrar{
+	background-color: transparent;
+	color:gray;
+}
+.cerrar:hover{
+	color:black;
+}
+.desaparece{
+	display: none;
+}
+.nomList{
+	width: 250px;
+	background-color: #E2E4E6;
+	font-weight: bold;
+	padding: 9px;
+	border-radius: 5px;
+	word-wrap: break-word;
+	white-space: pre-line;
+}
+.tarjeta{
+	background-color: #E2E4E6;
+	width: 250px;
+	color: gray;
+	padding: 8px;
+	border-radius: 5px;
+}
+#contenedor{
+	display: inline-block;
+	background-color: #F92C92;
+}
+#contenedorLista, .nuevoConten {
+	margin-right: 14px;
+}
+.nuevoConten{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #E2E4E6;
+	border-radius: 5px;
+	width: 270px;
+}
+.ntarjeta{
+	background-color: #E2E4E6;
+	width: 100%;
+}
+.ntextarea{
+	display: block;
+	resize: none;
+	width: 100%;
+	height: 80px;
+}
+.nboton{
+	display: block;
+}
+.cadaTarjeta{
+	background-color: #ffffff;
+	width: 100%;
+	border-radius: 5px;
+	margin: 8px 0;
+	padding: 4px;
+	word-wrap: break-word;
+	white-space: pre-line;
+}
+.contenedor {
+	white-space: nowrap;
+	padding-top: 56px;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+.cadaTarjeta:hover{
+	background: rgba(235,233,249,1);
+}
+.estiloArrastrando{
+	border: 2px dashed black;
+}
